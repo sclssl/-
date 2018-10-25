@@ -1,0 +1,192 @@
+/*标签页头*/
+	.di11{
+		text-align:center;
+	}
+	.di11 ul{
+			width:1200px;
+			margin:0;
+			padding:0;
+			display:flex;
+			margin-top:40px;
+	} 
+	.di11 ul li{
+			display:block;
+			width:525px;
+			height:4px;
+			background:#fff;
+			margin-top:16px;	
+		}
+	.di11 ul b{
+			font-size:26px;
+			padding:0 10px;
+		}
+	.di11 p{
+			font-size:26px;
+			margin-top:10px;
+			color:#fff;
+		}
+/*hreder*/
+	.header{
+		width:100%;
+		height:580px;
+		background-image:url("img/div1.jpg");
+	}
+	.head{
+		width:100%;
+		height:63px;
+		line-height:63px;
+		background:rgba(0,0,0,0.3);
+	}
+	.head ul{
+		width:1200px;
+		display:flex;
+		margin:0 auto;
+	}
+	.head ul:nth-child(1){
+		margin-left:20%;
+	}
+	.head ul li{
+		color:#fff;
+		font-size:24px;
+		list-style:none;
+		margin-right:80px;
+	}
+/*多肉的家族*/
+	.div2{
+		width:1200px;
+		margin:0 auto;
+	}
+    .div2 .di11 ul li{
+		background:orange;
+	}
+	.div2 .di11 p{
+		font-size:26px;
+		margin-top:10px;
+		color:#83985E;
+	}
+	.div2 .di2,.div2 .di3,.div2 .di4{
+		display:flex;
+		width:1200px;
+		font-size:25px;
+		line-height:35px;
+	}
+	.div2 .di4{
+		margin-bottom:40px;
+	}
+	.div2 p{
+		font-size:20px;
+		margin-top:100px;
+		font-weight:bold;
+	}
+	.div2 img{
+		margin:0 10px;
+	}
+	.div2 p b{
+		font-size:28px;
+	}
+	.div2 .di2 p{
+		margin-left:110px;
+	}
+	.div2 .di3 p{
+		margin-right:90px;
+		margin-left:10px;
+	}
+	.div2 .di4 p{
+		margin-left:110px;
+	}
+/*多肉的相册*/
+		.div3{
+			width:100%;
+			background:#97B658;
+			display:flex;
+		}
+		.div3 .di6{
+			width:1200px;
+			margin:0 auto;
+		}
+		.div3 .di5{
+			margin:10px auto 70px;
+			display:flex;
+		}
+		.div3 .di1,.div3 .di2,.div3 .di3{
+			display:flex;
+			flex-wrap:wrap;
+			justify-content:space-between;
+		}
+		.div3 .di2 img{
+			margin:6px 8px;
+		}
+		.div3 .di3,.div3 .di1 img{
+			margin:6px 0;
+		}
+		.div3 img:nth-child(4){
+			margin-top:-192px;
+		}
+/*多肉的观赏*/	
+	.div4{
+		margin:0 auto;
+		width:1200px;
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.div4 .di2{
+		margin:50px 0;
+		width:1200px;
+		height:600px;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+	}
+	.div4 .di2 div{
+		width:250px;
+	}
+	.div4 .di2 h5{
+		font-weight: inherit;
+		font-size:14px;
+		color:#666;
+		text-align:center;
+	}
+	.div4 .di11 ul li{
+		background:orange;
+	}
+	.div4 .di11 p{
+		color:#83985E;
+	}
+/*多肉的价值*/
+	.div5{
+		width:100%;
+		margin:0 auto;
+		background:#97B658;
+		display:flex;
+	}
+	.div5 .di3{
+		margin:0 auto;
+		width:1200px;
+		display:flex;
+		flex-wrap:wrap;
+	}
+	.div5 .di2{
+		margin:50px 0;
+		width:1200px;
+		height:600px;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:space-around;
+	}
+	.div5 .di2 div{
+		width:260px;
+	}
+	h5{
+		font-weight: inherit;
+		font-size:14px;
+		color:#fff;
+		text-align:center;
+	}
+/*footer*/
+	.footer{
+		width:100%;
+		height:60px;
+		text-align:center;
+		line-height:60px;
+		color:#666;
+	}
